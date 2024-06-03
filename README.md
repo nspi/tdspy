@@ -2,6 +2,8 @@
 
 An open-source implementation of Time Selay Stability (TDS) in Python.
 
+This is a copy. Main repository of our group: https://gitlab.gwdg.de/medinfpub/biosignal-processing-group/tdspy
+
 ## Name
 TDSpy
 
