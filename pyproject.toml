@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "edfrd>=0.7", "Neurokit2>=0.2.3", "numpy>=1.24.2", "pandas>=1.5.3", "scipy>=1.10.1", "matplotlib>=3.7.0" ]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "TDSpy"
+version = "1.0.1"
+authors = [
+  { name="Tabea F. A. Steinbrinker", email="tabea.steinbrinker@med.uni-goettingen.de" },
+  { name="Sebastian Schmale" },
+  { name="Dr. Nicolai Spicher", email="nicolai.spicher@med.uni-goettingen.de" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitlab.gwdg.de/medinfpub/biosignal-processing-group/tdspy"
+Issues = "https://gitlab.gwdg.de/medinfpub/biosignal-processing-group/tdspy/-/issues"
